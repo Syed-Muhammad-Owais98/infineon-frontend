@@ -1,0 +1,69 @@
+{
+  "name": "rtf_web_server",
+  "version": "0.7.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test:unit": "vue-cli-service test:unit --maxWorkers 2",
+    "test:e2e": "npm run cleanup && npm run e2e",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "cleanup": "rimraf mochawesome-report",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "doc": "./node_modules/.bin/jsdoc src -r -c jsdoc_config.json -d documents",
+    "e2e": "./node_modules/.bin/cypress run --browser chrome --port 5000",
+    "generate_mochawesome_report": "./node_modules/.bin/marge --reportTitle Design_Tamplate_E2E_Test_Report --reportFilename report --reportDir ./mochawesome-report --reportPageTitle Design_Tamplate_test_report --assetsDir ./mochawesome-report/assets --autoOpen true ./output.json",
+    "merge_reports": "mochawesome-merge ./mochawesome-report/*.json > ./output.json",
+    "test:report": "npm run merge_reports && npm run generate_mochawesome_report"
+  },
+  "dependencies": {
+    "@ifxglobal/my-global-design-tokens": "^1.1.0",
+    "@ifxglobal/my-vue-global-library": "^1.2.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@ifxglobal/vue-cli-plugin-wds": "^4.0.1",
+    "@vue/cli-plugin-e2e-cypress": "^4.5.0",
+    "@vue/cli-plugin-unit-jest": "^4.5.0",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest-junit": "^5.1.0",
+    "jsdoc": "^3.6.6",
+    "jsdoc-vuejs": "^3.0.9",
+    "mocha": "^7.1.1",
+    "mochawesome": "^5.0.0",
+    "mochawesome-merge": "^4.0.3",
+    "mochawesome-report-generator": "^4.1.0",
+    "prettier": "^2.3.1",
+    "vite": "^2.2.1",
+    "vite-plugin-vue2": "^1.4.4",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

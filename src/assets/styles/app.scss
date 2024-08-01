@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  position: relative;
+  min-height: 100%;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  overflow: hidden !important;
+}
+
+.el-container {
+  display: block !important;
+}
+.el-menu-item {
+  height: 38px !important;
+  line-height: 38px !important;
+}
+.el-submenu .el-submenu__title {
+  height: 38px !important;
+  line-height: 38px !important;
+}
+.el-menu-item .menutitle {
+  margin-left: 10px !important;
+}
+.el-submenu__title .menutitle {
+  margin-left: 10px !important;
+}
+.el-menu-item-group__title {
+  padding: 0px !important;
+}
+.el-icon-arrow-down:before{
+    color: white !important;
+}
+
+.el-popover[x-placement^="top"] {
+  .popper__arrow {
+    border-left: 5px solid transparent !important;
+    border-right: 5px solid transparent !important;
+    border-top: 5px solid #478f7c !important;
+    border-bottom: none !important;
+  }
+  .popper__arrow::after {
+    border-left: 5px solid transparent !important;
+    border-right: 5px solid transparent !important;
+    border-top: 5px solid #478f7c !important;
+    border-bottom: none !important;
+  }
+}
+
+.el-popover[x-placement^="bottom"] {
+  .popper__arrow {
+    border-left: 5px solid transparent !important;
+    border-right: 5px solid transparent !important;
+    border-bottom: 5px solid #478f7c !important;
+    border-top: none !important;
+  }
+  .popper__arrow::after {
+    border-left: 5px solid transparent !important;
+    border-right: 5px solid transparent !important;
+    border-bottom: 5px solid #478f7c !important;
+    border-top: none !important;
+  }
+}
+
+.el-popover[x-placement^="left"] {
+  .popper__arrow {
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: 5px solid #478f7c !important;
+    border-right: none !important;
+  }
+  .popper__arrow::after {
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: 5px solid #478f7c !important;
+    border-right: none !important;
+  }
+}
+
+.el-popover[x-placement^="right"] {
+  .popper__arrow {
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: none !important;
+    border-right: 5px solid #478f7c !important;
+  }
+  .popper__arrow::after {
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: none !important;
+    border-right: 5px solid #478f7c !important;
+  }
+}
+
+.el-popover__title {
+  color: #478f7c !important;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #478f7c !important;
+}

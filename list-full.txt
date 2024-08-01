@@ -1,0 +1,342 @@
+ AnywhereUSB Manager, below are the available devices:
+
+ AW24-011617 "BLR Hub" (aw24-011617.blr.infineon.com:18574)
+  NAME: AW24-011617
+  LOCALNAME: BLR Hub
+  MODEL: AnywhereUSB 24 Plus
+  VERSION: 22.2.9.85 awusb -- Thu, 03 Mar 2022 12:05:39 +0000
+  STATE: Active (secure)
+  ADDRESS: aw24-011617.blr.infineon.com (SSL Subject:/C=US/ST=MN/L=Hopkins/O=Digi International Inc. ,Issuer:/C=US/ST=MN/L=Hopkins/O=Digi International Inc.) (10.219.2.11)
+  PORT: 18574
+  CONNECTED FOR: 2747 sec
+  CONNECTION ID: 618
+  INTERFACE: bond0
+  SERIAL NUMBER: AW24-011617
+  AUTOCONNECT: disabled
+
+    Red499 (AW24-011617.1) 
+      ADDRESS: AW24-011617.1
+      GROUP: 1
+      NAME: Red499
+      PORTS: 1 2
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+        DAS JDS TriBoard TC499A STD V1.1 (AW24-011617.1502) 
+          ADDRESS: AW24-011617.1502
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS TriBoard TC499A STD V1.1
+          PRODUCT ID: 0x0043
+          SERIAL: TB6Y6HKI
+          PORT ON HUB: 2
+          AUTOCONNECT: disabled
+          IN USE BY: NO ONE
+
+        DAS JDS TriBoard TC499A COM V1.0 (AW24-011617.1501) 
+          ADDRESS: AW24-011617.1501
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS TriBoard TC499A COM V1.0
+          PRODUCT ID: 0x0043
+          SERIAL: TB6AVME6
+          PORT ON HUB: 1
+          AUTOCONNECT: disabled
+          IN USE BY: NO ONE
+
+    FPGA-Board (AW24-011617.2) 
+      ADDRESS: AW24-011617.2
+      GROUP: 2
+      NAME: FPGA-Board
+      PORTS: 7 8 9 10 11 12 16
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group 3 (AW24-011617.3) 
+      ADDRESS: AW24-011617.3
+      GROUP: 3
+      NAME: Group 3
+      PORTS: 4
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+        DAS JDS miniWiggler JTAG/DAP/SPD V2 (AW24-011617.1504) 
+          ADDRESS: AW24-011617.1504
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS miniWiggler JTAG/DAP/SPD V2
+          PRODUCT ID: 0x0043
+          SERIAL: MW5BLRPW
+          PORT ON HUB: 4
+          AUTOCONNECT: disabled
+          IN USE BY: NO ONE
+
+ rtf-lab-hub.intra.infineon.com (rtf-lab-hub.intra.infineon.com:18574)
+  NAME: rtf-lab-hub.intra.infineon.com
+  MODEL: AnywhereUSB 24 Plus
+  VERSION: 22.2.9.85 awusb -- Thu, 03 Mar 2022 12:05:39 +0000
+  STATE: Active (secure)
+  ADDRESS: rtf-lab-hub.intra.infineon.com (SSL Subject:/C=DE/ST=Bavaria/L=Munich/O=Infineon Technologies AG/OU=IFAG IT/CN=rtf-lab-hub.intra.infineon.com ,Issuer:/C=DE/O=Infineon Technologies AG/CN=Infineon Technologies AG SSL CA 4) (10.132.13.199)
+  PORT: 18574
+  CONNECTED FOR: 2747 sec
+  CONNECTION ID: 617
+  INTERFACE: eth1
+  SERIAL NUMBER: AW24-011730
+  AUTOCONNECT: disabled
+
+    ports (rtf-lab-hub.intra.infineon.com.1) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.1
+      GROUP: 1
+      NAME: ports
+      PORTS: 1
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+        DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1501) 
+          ADDRESS: rtf-lab-hub.intra.infineon.com.1501
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS AURIX LITE KIT V1.1
+          PRODUCT ID: 0x0043
+          SERIAL: LK4GLHS4
+          PORT ON HUB: 1
+          AUTOCONNECT: disabled
+          IN USE BY: NO ONE
+
+    Group_3 (rtf-lab-hub.intra.infineon.com.3) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.3
+      GROUP: 3
+      NAME: Group_3
+      PORTS: 2 3
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+        DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1502) 
+          ADDRESS: rtf-lab-hub.intra.infineon.com.1502
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS AURIX LITE KIT V1.1
+          PRODUCT ID: 0x0043
+          SERIAL: LK4GLHDG
+          PORT ON HUB: 2
+          AUTOCONNECT: disabled
+          IN USE BY: NO ONE
+
+        DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1503) 
+          ADDRESS: rtf-lab-hub.intra.infineon.com.1503
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS AURIX LITE KIT V1.1
+          PRODUCT ID: 0x0043
+          SERIAL: LK7QFIZ6
+          PORT ON HUB: 3
+          AUTOCONNECT: disabled
+          IN USE BY: NO ONE
+
+*   Group_4 "foo local name bar" (rtf-lab-hub.intra.infineon.com.4) (In-use by you)
+      ADDRESS: rtf-lab-hub.intra.infineon.com.4
+      GROUP: 4
+      NAME: Group_4
+      LOCALNAME: foo local name bar
+      PORTS: 4
+      AUTOCONNECT: enabled
+      IN USE BY: YOU
+
++       DAS JDS AURIX LITE KIT V1.1 (rtf-lab-hub.intra.infineon.com.1504) (In-use by you)
+          ADDRESS: rtf-lab-hub.intra.infineon.com.1504
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS AURIX LITE KIT V1.1
+          PRODUCT ID: 0x0043
+          SERIAL: LK4GLJXG
+          PORT ON HUB: 4
+          ASSIGNED VIRTUAL PORT: 1
+          AUTOCONNECT: inherited
+          IN USE BY: YOU
+
+    Group_5 (rtf-lab-hub.intra.infineon.com.5) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.5
+      GROUP: 5
+      NAME: Group_5
+      PORTS: 5
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_6 (rtf-lab-hub.intra.infineon.com.6) (In-use by:sff at 10.133.112.95)
+      ADDRESS: rtf-lab-hub.intra.infineon.com.6
+      GROUP: 6
+      NAME: Group_6
+      PORTS: 6
+      AUTOCONNECT: disabled
+      IN USE BY: sff AT 10.133.112.95 (ISCECZC1128ZPG)
+
+        Kingst Logic Analyzer (rtf-lab-hub.intra.infineon.com.1706) (In-use by:sff at 10.133.112.95)
+          ADDRESS: rtf-lab-hub.intra.infineon.com.1706
+          VENDOR: Kingst
+          VENDOR ID: 0x77a1
+          PRODUCT: Kingst Logic Analyzer
+          PRODUCT ID: 0x01a2
+          PORT ON HUB: 6
+          AUTOCONNECT: disabled
+          IN USE BY: sff AT 10.133.112.95 (ISCECZC1128ZPG)
+
+    Group_7 (rtf-lab-hub.intra.infineon.com.7) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.7
+      GROUP: 7
+      NAME: Group_7
+      PORTS: 7
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+        DAS JDS AURIX LITE KIT V1.0 (TC334) (rtf-lab-hub.intra.infineon.com.1707) 
+          ADDRESS: rtf-lab-hub.intra.infineon.com.1707
+          VENDOR: IFX
+          VENDOR ID: 0x058b
+          PRODUCT: DAS JDS AURIX LITE KIT V1.0 (TC334)
+          PRODUCT ID: 0x0043
+          SERIAL: LK6HHGDL
+          PORT ON HUB: 7
+          AUTOCONNECT: disabled
+          IN USE BY: NO ONE
+
+    Group_8 (rtf-lab-hub.intra.infineon.com.8) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.8
+      GROUP: 8
+      NAME: Group_8
+      PORTS: 8
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_9 (rtf-lab-hub.intra.infineon.com.9) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.9
+      GROUP: 9
+      NAME: Group_9
+      PORTS: 9
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_10 (rtf-lab-hub.intra.infineon.com.10) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.10
+      GROUP: 10
+      NAME: Group_10
+      PORTS: 10
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_11 (rtf-lab-hub.intra.infineon.com.11) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.11
+      GROUP: 11
+      NAME: Group_11
+      PORTS: 11
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_12 (rtf-lab-hub.intra.infineon.com.12) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.12
+      GROUP: 12
+      NAME: Group_12
+      PORTS: 12
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_13 (rtf-lab-hub.intra.infineon.com.13) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.13
+      GROUP: 13
+      NAME: Group_13
+      PORTS: 13
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_14 (rtf-lab-hub.intra.infineon.com.14) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.14
+      GROUP: 14
+      NAME: Group_14
+      PORTS: 14
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_15 (rtf-lab-hub.intra.infineon.com.15) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.15
+      GROUP: 15
+      NAME: Group_15
+      PORTS: 15
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_16 (rtf-lab-hub.intra.infineon.com.16) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.16
+      GROUP: 16
+      NAME: Group_16
+      PORTS: 16
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_17 (rtf-lab-hub.intra.infineon.com.17) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.17
+      GROUP: 17
+      NAME: Group_17
+      PORTS: 17
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_18 (rtf-lab-hub.intra.infineon.com.18) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.18
+      GROUP: 18
+      NAME: Group_18
+      PORTS: 18
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_19 (rtf-lab-hub.intra.infineon.com.19) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.19
+      GROUP: 19
+      NAME: Group_19
+      PORTS: 19
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_20 (rtf-lab-hub.intra.infineon.com.20) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.20
+      GROUP: 20
+      NAME: Group_20
+      PORTS: 20
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_21 (rtf-lab-hub.intra.infineon.com.21) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.21
+      GROUP: 21
+      NAME: Group_21
+      PORTS: 21
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_22 (rtf-lab-hub.intra.infineon.com.22) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.22
+      GROUP: 22
+      NAME: Group_22
+      PORTS: 22
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_23 (rtf-lab-hub.intra.infineon.com.23) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.23
+      GROUP: 23
+      NAME: Group_23
+      PORTS: 23
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+    Group_24 (rtf-lab-hub.intra.infineon.com.24) 
+      ADDRESS: rtf-lab-hub.intra.infineon.com.24
+      GROUP: 24
+      NAME: Group_24
+      PORTS: 24
+      AUTOCONNECT: disabled
+      IN USE BY: NO ONE
+
+
+* means Autoconnect enabled, + means Autoconnect inherited
+Autofind: disabled  Use All Hub Addresses: disabled
+Autoconnect All: disabled
+AnywhereUSB Manager not running as a service
